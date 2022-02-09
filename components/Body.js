@@ -56,7 +56,7 @@ const Body = () => {
           ))}
         </div>
         <p ref={messageEnd} className="text-gray-100 mt-4 text-center">
-          You're up to date {user.getUsername()}!
+          You&apos;re up to date {user.getUsername()}!
         </p>
         <div className="fixed right-0 grid place-items-center left-0 bottom-11">
           <div className="bg-black w-full xs:w-[400px] flex items-center px-4 justify-between h-12 rounded-full border border-blue-800 shadow-md">
